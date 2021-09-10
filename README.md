@@ -18,7 +18,7 @@ Upload picture
 
 Used modules/library:
 
-1.Node JS+ Express 
+1.Node JS+ Express + POSTMAN
 
 2.Mongo DB+Mongoose
 
