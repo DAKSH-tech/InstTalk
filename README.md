@@ -1,5 +1,6 @@
 # Codeial
-Social Application 
+Social Application
+![image](https://user-images.githubusercontent.com/55282736/132902233-fda46a3b-2860-4df4-98c6-852dd006c61e.png)
 
 Features:
 
