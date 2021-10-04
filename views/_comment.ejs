@@ -1,0 +1,30 @@
+<li>
+    <div id="comment-container">
+        <ul id="post-name">
+            <li><img id="comment-profile" src="<%= comment.user.avatar%>"></li>
+            <li> <%=comment.user.name %></li>
+            
+            <li id="del-post">
+            <% if((locals.user) && (locals.user.id == comment.user.id)){%>
+                <small id="del-comment">
+                    <a href="/comments/destroy/<%= comment.id %>">X</a>
+                </small>
+                 <small>
+                    <% if(locals.user) { %>
+                        <a class="toggle-like-button" data-likes="<%= comment.likes.length %>" href="/likes/toggle/?id=<%=comment._id%>&type=Comment">
+                            <%= comment.likes.length %> Likes
+                        </a>
+                    <% } else { %>
+                        <%= comment.likes.length %> Likes
+                    <% } %>
+                </small> 
+            <% }%></li>
+            
+        </ul>
+        <p><%=comment.content %></p> 
+    </div>    
+
+
+            
+        
+</li>

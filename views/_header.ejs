@@ -1,0 +1,19 @@
+
+<div id="header">
+    <div id="icon">
+        <h3 class="logo"><a class="icon" href="/">Codeial</a></h3>
+    </div>
+    <div id="right">
+        <ul id="ri">
+            <% if(locals.user){ %>
+                <li class="logo"><a class="icon" href="/users/profile/<%=user.id%>"><%= user.name %></a></li>
+                <li class="logo"> <a class="icon" href="/users/signOut">Sign Out</a> </li>
+            <% }else{%>
+                <li class="logo"><a class="icon" href="/users/signIn">Sign In</a></li>
+                <li class="logo"><a class="icon" href="/users/signUp">Sign Up</a></li>
+            <%}%>
+        
+        </ul>
+    </div>
+   
+</div>

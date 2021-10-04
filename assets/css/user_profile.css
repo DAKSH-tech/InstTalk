@@ -1,0 +1,11 @@
+* {
+  margin: auto;
+  text-align: center; }
+
+#cont {
+  display: flex;
+  flex-direction: row; }
+
+img {
+  height: 200px;
+  width: 200px; }

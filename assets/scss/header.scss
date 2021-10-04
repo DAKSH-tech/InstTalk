@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    margin-left: 40px;
+    padding-top: 5px;
+}
+#header{
+    height:35px;
+    width:100%;
+    background-color:mediumslateblue;
+    display: flex; box-shadow: 5px 5px aliceblue;
+    position: fixed;
+}
+h3{
+    color:white;
+}
+li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+#right{
+   margin-left: 70%;
+}
+#ri{
+    display: flex;
+    padding-right: 10px;
+}
+a{
+    margin-top:30px;
+   
+    text-decoration: none;
+    font-weight: 800;
+}
+.icon{
+    color:white;
+
+}

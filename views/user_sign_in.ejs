@@ -1,0 +1,13 @@
+<h1>SIGN IN</h1>
+<title><%=title%></title><br>
+<form action="/users/createSession" method="POST">
+    <label>Username</label>
+    <input type="text" name="email" placeholder="Email" required>&nbsp;&nbsp
+    <label>Password</label>
+    <input type="password" name="password" placeholder="Password" required>&nbsp
+    <input type="submit" name="Sign In">
+</form>
+<br>
+<p>
+    <a href="/users/auth/google">Google Sign IN</a>
+</p>
